@@ -1,0 +1,1392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		218DA9DB2F29B13C00C55DAA /* watchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 218DA9BB2F29B13B00C55DAA /* watchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		218DAA0A2F29BD8000C55DAA /* PairdashWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 218DA9EA2F29BD7F00C55DAA /* PairdashWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		212BE6F82F2963BB00AF30CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212BE6E22F2963BA00AF30CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 212BE6E92F2963BA00AF30CA;
+			remoteInfo = "Challenge 4 - PuzzleDash";
+		};
+		212BE7022F2963BC00AF30CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212BE6E22F2963BA00AF30CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 212BE6E92F2963BA00AF30CA;
+			remoteInfo = "Challenge 4 - PuzzleDash";
+		};
+		218DA9C82F29B13C00C55DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212BE6E22F2963BA00AF30CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218DA9BA2F29B13B00C55DAA;
+			remoteInfo = "watchOS Watch App";
+		};
+		218DA9D22F29B13C00C55DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212BE6E22F2963BA00AF30CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218DA9BA2F29B13B00C55DAA;
+			remoteInfo = "watchOS Watch App";
+		};
+		218DA9D92F29B13C00C55DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212BE6E22F2963BA00AF30CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218DA9BA2F29B13B00C55DAA;
+			remoteInfo = "watchOS Watch App";
+		};
+		218DA9F72F29BD8000C55DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212BE6E22F2963BA00AF30CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218DA9E92F29BD7F00C55DAA;
+			remoteInfo = "PairdashWatch Watch App";
+		};
+		218DAA012F29BD8000C55DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212BE6E22F2963BA00AF30CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218DA9E92F29BD7F00C55DAA;
+			remoteInfo = "PairdashWatch Watch App";
+		};
+		218DAA082F29BD8000C55DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212BE6E22F2963BA00AF30CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218DA9E92F29BD7F00C55DAA;
+			remoteInfo = "PairdashWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		218DA9DF2F29B13C00C55DAA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				218DA9DB2F29B13C00C55DAA /* watchOS Watch App.app in Embed Watch Content */,
+				218DAA0A2F29BD8000C55DAA /* PairdashWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		212BE6EA2F2963BA00AF30CA /* Challenge 4 - PuzzleDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge 4 - PuzzleDash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212BE6F72F2963BB00AF30CA /* Challenge 4 - PuzzleDashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Challenge 4 - PuzzleDashTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212BE7012F2963BC00AF30CA /* Challenge 4 - PuzzleDashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Challenge 4 - PuzzleDashUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		218DA9BB2F29B13B00C55DAA /* watchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		218DA9C72F29B13C00C55DAA /* watchOS Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchOS Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		218DA9D12F29B13C00C55DAA /* watchOS Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchOS Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		218DA9EA2F29BD7F00C55DAA /* PairdashWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PairdashWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		218DA9F62F29BD8000C55DAA /* PairdashWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PairdashWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		218DAA002F29BD8000C55DAA /* PairdashWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PairdashWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		218DA9B62F29AF6500C55DAA /* Exceptions for "Challenge 4 - PuzzleDash" folder in "Challenge 4 - PuzzleDash" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			platformFiltersByRelativePath = {
+				Shared/ConnectivityManager.swift = (ios, );
+			};
+			target = 212BE6E92F2963BA00AF30CA /* Challenge 4 - PuzzleDash */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		212BE6EC2F2963BA00AF30CA /* Challenge 4 - PuzzleDash */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				218DA9B62F29AF6500C55DAA /* Exceptions for "Challenge 4 - PuzzleDash" folder in "Challenge 4 - PuzzleDash" target */,
+			);
+			path = "Challenge 4 - PuzzleDash";
+			sourceTree = "<group>";
+		};
+		212BE6FA2F2963BB00AF30CA /* Challenge 4 - PuzzleDashTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Challenge 4 - PuzzleDashTests";
+			sourceTree = "<group>";
+		};
+		212BE7042F2963BC00AF30CA /* Challenge 4 - PuzzleDashUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Challenge 4 - PuzzleDashUITests";
+			sourceTree = "<group>";
+		};
+		218DA9EB2F29BD7F00C55DAA /* PairdashWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PairdashWatch Watch App";
+			sourceTree = "<group>";
+		};
+		218DA9F92F29BD8000C55DAA /* PairdashWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PairdashWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		218DAA032F29BD8000C55DAA /* PairdashWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PairdashWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212BE6E72F2963BA00AF30CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212BE6F42F2963BB00AF30CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212BE6FE2F2963BC00AF30CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9B82F29B13B00C55DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9C42F29B13C00C55DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9CE2F29B13C00C55DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9E72F29BD7F00C55DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9F32F29BD8000C55DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9FD2F29BD8000C55DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212BE6E12F2963BA00AF30CA = {
+			isa = PBXGroup;
+			children = (
+				212BE6EC2F2963BA00AF30CA /* Challenge 4 - PuzzleDash */,
+				212BE6FA2F2963BB00AF30CA /* Challenge 4 - PuzzleDashTests */,
+				212BE7042F2963BC00AF30CA /* Challenge 4 - PuzzleDashUITests */,
+				218DA9EB2F29BD7F00C55DAA /* PairdashWatch Watch App */,
+				218DA9F92F29BD8000C55DAA /* PairdashWatch Watch AppTests */,
+				218DAA032F29BD8000C55DAA /* PairdashWatch Watch AppUITests */,
+				212BE6EB2F2963BA00AF30CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		212BE6EB2F2963BA00AF30CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				212BE6EA2F2963BA00AF30CA /* Challenge 4 - PuzzleDash.app */,
+				212BE6F72F2963BB00AF30CA /* Challenge 4 - PuzzleDashTests.xctest */,
+				212BE7012F2963BC00AF30CA /* Challenge 4 - PuzzleDashUITests.xctest */,
+				218DA9BB2F29B13B00C55DAA /* watchOS Watch App.app */,
+				218DA9C72F29B13C00C55DAA /* watchOS Watch AppTests.xctest */,
+				218DA9D12F29B13C00C55DAA /* watchOS Watch AppUITests.xctest */,
+				218DA9EA2F29BD7F00C55DAA /* PairdashWatch Watch App.app */,
+				218DA9F62F29BD8000C55DAA /* PairdashWatch Watch AppTests.xctest */,
+				218DAA002F29BD8000C55DAA /* PairdashWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		212BE6E92F2963BA00AF30CA /* Challenge 4 - PuzzleDash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212BE70B2F2963BC00AF30CA /* Build configuration list for PBXNativeTarget "Challenge 4 - PuzzleDash" */;
+			buildPhases = (
+				212BE6E62F2963BA00AF30CA /* Sources */,
+				212BE6E72F2963BA00AF30CA /* Frameworks */,
+				212BE6E82F2963BA00AF30CA /* Resources */,
+				218DA9DF2F29B13C00C55DAA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				218DA9DA2F29B13C00C55DAA /* PBXTargetDependency */,
+				218DAA092F29BD8000C55DAA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				212BE6EC2F2963BA00AF30CA /* Challenge 4 - PuzzleDash */,
+			);
+			name = "Challenge 4 - PuzzleDash";
+			packageProductDependencies = (
+			);
+			productName = "Challenge 4 - PuzzleDash";
+			productReference = 212BE6EA2F2963BA00AF30CA /* Challenge 4 - PuzzleDash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		212BE6F62F2963BB00AF30CA /* Challenge 4 - PuzzleDashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212BE70E2F2963BC00AF30CA /* Build configuration list for PBXNativeTarget "Challenge 4 - PuzzleDashTests" */;
+			buildPhases = (
+				212BE6F32F2963BB00AF30CA /* Sources */,
+				212BE6F42F2963BB00AF30CA /* Frameworks */,
+				212BE6F52F2963BB00AF30CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212BE6F92F2963BB00AF30CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				212BE6FA2F2963BB00AF30CA /* Challenge 4 - PuzzleDashTests */,
+			);
+			name = "Challenge 4 - PuzzleDashTests";
+			packageProductDependencies = (
+			);
+			productName = "Challenge 4 - PuzzleDashTests";
+			productReference = 212BE6F72F2963BB00AF30CA /* Challenge 4 - PuzzleDashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		212BE7002F2963BC00AF30CA /* Challenge 4 - PuzzleDashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212BE7112F2963BC00AF30CA /* Build configuration list for PBXNativeTarget "Challenge 4 - PuzzleDashUITests" */;
+			buildPhases = (
+				212BE6FD2F2963BC00AF30CA /* Sources */,
+				212BE6FE2F2963BC00AF30CA /* Frameworks */,
+				212BE6FF2F2963BC00AF30CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212BE7032F2963BC00AF30CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				212BE7042F2963BC00AF30CA /* Challenge 4 - PuzzleDashUITests */,
+			);
+			name = "Challenge 4 - PuzzleDashUITests";
+			packageProductDependencies = (
+			);
+			productName = "Challenge 4 - PuzzleDashUITests";
+			productReference = 212BE7012F2963BC00AF30CA /* Challenge 4 - PuzzleDashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		218DA9BA2F29B13B00C55DAA /* watchOS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218DA9DC2F29B13C00C55DAA /* Build configuration list for PBXNativeTarget "watchOS Watch App" */;
+			buildPhases = (
+				218DA9B72F29B13B00C55DAA /* Sources */,
+				218DA9B82F29B13B00C55DAA /* Frameworks */,
+				218DA9B92F29B13B00C55DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOS Watch App";
+			packageProductDependencies = (
+			);
+			productName = "watchOS Watch App";
+			productReference = 218DA9BB2F29B13B00C55DAA /* watchOS Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		218DA9C62F29B13C00C55DAA /* watchOS Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218DA9E02F29B13C00C55DAA /* Build configuration list for PBXNativeTarget "watchOS Watch AppTests" */;
+			buildPhases = (
+				218DA9C32F29B13C00C55DAA /* Sources */,
+				218DA9C42F29B13C00C55DAA /* Frameworks */,
+				218DA9C52F29B13C00C55DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				218DA9C92F29B13C00C55DAA /* PBXTargetDependency */,
+			);
+			name = "watchOS Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "watchOS Watch AppTests";
+			productReference = 218DA9C72F29B13C00C55DAA /* watchOS Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		218DA9D02F29B13C00C55DAA /* watchOS Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218DA9E32F29B13C00C55DAA /* Build configuration list for PBXNativeTarget "watchOS Watch AppUITests" */;
+			buildPhases = (
+				218DA9CD2F29B13C00C55DAA /* Sources */,
+				218DA9CE2F29B13C00C55DAA /* Frameworks */,
+				218DA9CF2F29B13C00C55DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				218DA9D32F29B13C00C55DAA /* PBXTargetDependency */,
+			);
+			name = "watchOS Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "watchOS Watch AppUITests";
+			productReference = 218DA9D12F29B13C00C55DAA /* watchOS Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		218DA9E92F29BD7F00C55DAA /* PairdashWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218DAA0B2F29BD8000C55DAA /* Build configuration list for PBXNativeTarget "PairdashWatch Watch App" */;
+			buildPhases = (
+				218DA9E62F29BD7F00C55DAA /* Sources */,
+				218DA9E72F29BD7F00C55DAA /* Frameworks */,
+				218DA9E82F29BD7F00C55DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				212BE6EC2F2963BA00AF30CA /* Challenge 4 - PuzzleDash */,
+				218DA9EB2F29BD7F00C55DAA /* PairdashWatch Watch App */,
+			);
+			name = "PairdashWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "PairdashWatch Watch App";
+			productReference = 218DA9EA2F29BD7F00C55DAA /* PairdashWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		218DA9F52F29BD8000C55DAA /* PairdashWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218DAA0E2F29BD8000C55DAA /* Build configuration list for PBXNativeTarget "PairdashWatch Watch AppTests" */;
+			buildPhases = (
+				218DA9F22F29BD8000C55DAA /* Sources */,
+				218DA9F32F29BD8000C55DAA /* Frameworks */,
+				218DA9F42F29BD8000C55DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				218DA9F82F29BD8000C55DAA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				212BE6EC2F2963BA00AF30CA /* Challenge 4 - PuzzleDash */,
+				218DA9F92F29BD8000C55DAA /* PairdashWatch Watch AppTests */,
+			);
+			name = "PairdashWatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "PairdashWatch Watch AppTests";
+			productReference = 218DA9F62F29BD8000C55DAA /* PairdashWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		218DA9FF2F29BD8000C55DAA /* PairdashWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218DAA112F29BD8000C55DAA /* Build configuration list for PBXNativeTarget "PairdashWatch Watch AppUITests" */;
+			buildPhases = (
+				218DA9FC2F29BD8000C55DAA /* Sources */,
+				218DA9FD2F29BD8000C55DAA /* Frameworks */,
+				218DA9FE2F29BD8000C55DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				218DAA022F29BD8000C55DAA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				212BE6EC2F2963BA00AF30CA /* Challenge 4 - PuzzleDash */,
+				218DAA032F29BD8000C55DAA /* PairdashWatch Watch AppUITests */,
+			);
+			name = "PairdashWatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "PairdashWatch Watch AppUITests";
+			productReference = 218DAA002F29BD8000C55DAA /* PairdashWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		212BE6E22F2963BA00AF30CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					212BE6E92F2963BA00AF30CA = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					212BE6F62F2963BB00AF30CA = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 212BE6E92F2963BA00AF30CA;
+					};
+					212BE7002F2963BC00AF30CA = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 212BE6E92F2963BA00AF30CA;
+					};
+					218DA9BA2F29B13B00C55DAA = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					218DA9C62F29B13C00C55DAA = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 218DA9BA2F29B13B00C55DAA;
+					};
+					218DA9D02F29B13C00C55DAA = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 218DA9BA2F29B13B00C55DAA;
+					};
+					218DA9E92F29BD7F00C55DAA = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					218DA9F52F29BD8000C55DAA = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 218DA9E92F29BD7F00C55DAA;
+					};
+					218DA9FF2F29BD8000C55DAA = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 218DA9E92F29BD7F00C55DAA;
+					};
+				};
+			};
+			buildConfigurationList = 212BE6E52F2963BA00AF30CA /* Build configuration list for PBXProject "Challenge 4 - PuzzleDash" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 212BE6E12F2963BA00AF30CA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 212BE6EB2F2963BA00AF30CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				212BE6E92F2963BA00AF30CA /* Challenge 4 - PuzzleDash */,
+				212BE6F62F2963BB00AF30CA /* Challenge 4 - PuzzleDashTests */,
+				212BE7002F2963BC00AF30CA /* Challenge 4 - PuzzleDashUITests */,
+				218DA9BA2F29B13B00C55DAA /* watchOS Watch App */,
+				218DA9C62F29B13C00C55DAA /* watchOS Watch AppTests */,
+				218DA9D02F29B13C00C55DAA /* watchOS Watch AppUITests */,
+				218DA9E92F29BD7F00C55DAA /* PairdashWatch Watch App */,
+				218DA9F52F29BD8000C55DAA /* PairdashWatch Watch AppTests */,
+				218DA9FF2F29BD8000C55DAA /* PairdashWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		212BE6E82F2963BA00AF30CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212BE6F52F2963BB00AF30CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212BE6FF2F2963BC00AF30CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9B92F29B13B00C55DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9C52F29B13C00C55DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9CF2F29B13C00C55DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9E82F29BD7F00C55DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9F42F29BD8000C55DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9FE2F29BD8000C55DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212BE6E62F2963BA00AF30CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212BE6F32F2963BB00AF30CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212BE6FD2F2963BC00AF30CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9B72F29B13B00C55DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9C32F29B13C00C55DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9CD2F29B13C00C55DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9E62F29BD7F00C55DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9F22F29BD8000C55DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218DA9FC2F29BD8000C55DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		212BE6F92F2963BB00AF30CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 212BE6E92F2963BA00AF30CA /* Challenge 4 - PuzzleDash */;
+			targetProxy = 212BE6F82F2963BB00AF30CA /* PBXContainerItemProxy */;
+		};
+		212BE7032F2963BC00AF30CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 212BE6E92F2963BA00AF30CA /* Challenge 4 - PuzzleDash */;
+			targetProxy = 212BE7022F2963BC00AF30CA /* PBXContainerItemProxy */;
+		};
+		218DA9C92F29B13C00C55DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 218DA9BA2F29B13B00C55DAA /* watchOS Watch App */;
+			targetProxy = 218DA9C82F29B13C00C55DAA /* PBXContainerItemProxy */;
+		};
+		218DA9D32F29B13C00C55DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 218DA9BA2F29B13B00C55DAA /* watchOS Watch App */;
+			targetProxy = 218DA9D22F29B13C00C55DAA /* PBXContainerItemProxy */;
+		};
+		218DA9DA2F29B13C00C55DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 218DA9BA2F29B13B00C55DAA /* watchOS Watch App */;
+			targetProxy = 218DA9D92F29B13C00C55DAA /* PBXContainerItemProxy */;
+		};
+		218DA9F82F29BD8000C55DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 218DA9E92F29BD7F00C55DAA /* PairdashWatch Watch App */;
+			targetProxy = 218DA9F72F29BD8000C55DAA /* PBXContainerItemProxy */;
+		};
+		218DAA022F29BD8000C55DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 218DA9E92F29BD7F00C55DAA /* PairdashWatch Watch App */;
+			targetProxy = 218DAA012F29BD8000C55DAA /* PBXContainerItemProxy */;
+		};
+		218DAA092F29BD8000C55DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 218DA9E92F29BD7F00C55DAA /* PairdashWatch Watch App */;
+			targetProxy = 218DAA082F29BD8000C55DAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		212BE7092F2963BC00AF30CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		212BE70A2F2963BC00AF30CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		212BE70C2F2963BC00AF30CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.Challenge-4---PuzzleDash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		212BE70D2F2963BC00AF30CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.Challenge-4---PuzzleDash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		212BE70F2F2963BC00AF30CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.Challenge-4---PuzzleDashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challenge 4 - PuzzleDash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Challenge 4 - PuzzleDash";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		212BE7102F2963BC00AF30CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.Challenge-4---PuzzleDashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challenge 4 - PuzzleDash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Challenge 4 - PuzzleDash";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		212BE7122F2963BC00AF30CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.Challenge-4---PuzzleDashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Challenge 4 - PuzzleDash";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		212BE7132F2963BC00AF30CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.Challenge-4---PuzzleDashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Challenge 4 - PuzzleDash";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		218DA9DD2F29B13C00C55DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watchOS;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "mikemetic.Challenge-4---PuzzleDash";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.Challenge-4---PuzzleDash.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		218DA9DE2F29B13C00C55DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watchOS;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "mikemetic.Challenge-4---PuzzleDash";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.Challenge-4---PuzzleDash.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		218DA9E12F29B13C00C55DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.watchOS-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchOS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		218DA9E22F29B13C00C55DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.watchOS-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchOS Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		218DA9E42F29B13C00C55DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.watchOS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watchOS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		218DA9E52F29B13C00C55DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.watchOS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watchOS Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		218DAA0C2F29BD8000C55DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PairdashWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "mikemetic.Challenge-4---PuzzleDash";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.Challenge-4---PuzzleDash.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		218DAA0D2F29BD8000C55DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PairdashWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "mikemetic.Challenge-4---PuzzleDash";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.Challenge-4---PuzzleDash.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		218DAA0F2F29BD8000C55DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.PairdashWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PairdashWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PairdashWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		218DAA102F29BD8000C55DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.PairdashWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PairdashWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PairdashWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		218DAA122F29BD8000C55DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.PairdashWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PairdashWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		218DAA132F29BD8000C55DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikemetic.PairdashWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PairdashWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		212BE6E52F2963BA00AF30CA /* Build configuration list for PBXProject "Challenge 4 - PuzzleDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212BE7092F2963BC00AF30CA /* Debug */,
+				212BE70A2F2963BC00AF30CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212BE70B2F2963BC00AF30CA /* Build configuration list for PBXNativeTarget "Challenge 4 - PuzzleDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212BE70C2F2963BC00AF30CA /* Debug */,
+				212BE70D2F2963BC00AF30CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212BE70E2F2963BC00AF30CA /* Build configuration list for PBXNativeTarget "Challenge 4 - PuzzleDashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212BE70F2F2963BC00AF30CA /* Debug */,
+				212BE7102F2963BC00AF30CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212BE7112F2963BC00AF30CA /* Build configuration list for PBXNativeTarget "Challenge 4 - PuzzleDashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212BE7122F2963BC00AF30CA /* Debug */,
+				212BE7132F2963BC00AF30CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218DA9DC2F29B13C00C55DAA /* Build configuration list for PBXNativeTarget "watchOS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218DA9DD2F29B13C00C55DAA /* Debug */,
+				218DA9DE2F29B13C00C55DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218DA9E02F29B13C00C55DAA /* Build configuration list for PBXNativeTarget "watchOS Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218DA9E12F29B13C00C55DAA /* Debug */,
+				218DA9E22F29B13C00C55DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218DA9E32F29B13C00C55DAA /* Build configuration list for PBXNativeTarget "watchOS Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218DA9E42F29B13C00C55DAA /* Debug */,
+				218DA9E52F29B13C00C55DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218DAA0B2F29BD8000C55DAA /* Build configuration list for PBXNativeTarget "PairdashWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218DAA0C2F29BD8000C55DAA /* Debug */,
+				218DAA0D2F29BD8000C55DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218DAA0E2F29BD8000C55DAA /* Build configuration list for PBXNativeTarget "PairdashWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218DAA0F2F29BD8000C55DAA /* Debug */,
+				218DAA102F29BD8000C55DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218DAA112F29BD8000C55DAA /* Build configuration list for PBXNativeTarget "PairdashWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218DAA122F29BD8000C55DAA /* Debug */,
+				218DAA132F29BD8000C55DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 212BE6E22F2963BA00AF30CA /* Project object */;
+}
